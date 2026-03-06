@@ -1,0 +1,48 @@
+CFPNC_2026 instance of FootballUS
+Subclass FootballUS TeamSport
+subclass TeamSport Sport
+subclass Sport Game
+subclass Game RecreationOrExercise
+subclass RecreationOrExercise IntentionalProcess
+subclass IntentionalProcess Process
+subclass Process Physical
+subclass Physical Entity
+
+Miami_Hurricanes & Indiana_Hoosiers instance of SportsTeam
+subclass SportsTeam GroupOfPeople
+subclass GroupOfPeople Group
+subclass Group Collection
+subclass Collection Physical
+subclass Physical Entity
+
+20_January_2026 instance of Day
+subclass TimeInterval TimePosition
+subclass TimeMeasure ConstantQuantity
+subclass ConstantQuantity PhysicalQuantity
+subclass PhysicalQuantity Quantity
+subclass Quantity Abstract
+subclass Abstract Entity
+
+27 & 21 instance of NonnegativeInteger
+subclass Integer RationalNumber
+subclass RationalNumber RealNumber
+subclass RealNumber Number
+subclass Number Quantity
+subclass Quantity Abstract
+subclass Abstract Entity
+
+Carson_Beck instance of Man
+subclass Man Human
+subclass Human Hominid
+subclass Hominid Primate
+subclass Primate Mammal
+subclass Mammal WarmBloodedVertebrate
+subclass WarmBloodedVertebrate Vertebrate
+subclass Vertebrate Animal
+subclass Animal Organism
+subclass Organism OrganicObject
+subclass OrganicObject OrganicThing
+subclass OrganicThing SelfConnectedObject
+subclass SelfConnectedObject Object
+subclass Object Physical
+subclass Physical Entity
